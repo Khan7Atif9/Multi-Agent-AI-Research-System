@@ -1,0 +1,50 @@
+# Core LLM + API
+openai>=1.30.0
+tiktoken>=0.7.0
+
+# LangChain ecosystem (modular packages)
+langchain>=0.2.10
+langchain-core>=0.2.25
+langchain-community>=0.2.10
+langchain-openai>=0.1.17
+
+# LCEL / Runnables support (comes via langchain-core but keep explicit)
+langsmith>=0.1.90
+
+# Tavily search tool
+tavily-python>=0.3.3
+
+# Web scraping
+beautifulsoup4>=4.12.3
+requests>=2.32.3
+lxml>=5.2.2
+
+# Async + HTTP clients (important for agents/tools)
+httpx>=0.27.0
+aiohttp>=3.9.5
+
+# Data handling
+pandas>=2.2.2
+numpy>=1.26.4
+
+# Environment variables
+python-dotenv>=1.0.1
+
+# Optional: FastAPI (if you later expose API)
+fastapi>=0.111.0
+uvicorn>=0.30.1
+
+# Optional: Logging & utilities
+loguru>=0.7.2
+
+# Optional: JSON handling improvements
+orjson>=3.10.6
+
+# Optional: Retry logic (useful for API calls)
+tenacity>=8.3.0
+
+pylance>=4.0.1
+
+rich>=2.19.2
+
+streamlit>=1.32.0
