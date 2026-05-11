@@ -10,11 +10,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 #model setup
-llm=ChatOpenAI(model="gpt-4o-mini",temperature=0)
-#llm = ChatGroq(
- #   model="llama-3.3-70b-versatile",
-  #  temperature=0
-#)
+#llm=ChatOpenAI(model="gpt-4o-mini",temperature=0)
+llm = ChatGroq(
+    model="llama-3.3-70b-versatile",
+    temperature=0
+)
 #1st agent
 def build_search_agent():
     return create_agent(
