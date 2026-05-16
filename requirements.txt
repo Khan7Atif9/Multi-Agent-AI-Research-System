@@ -49,5 +49,5 @@ rich>=2.19.2
 
 streamlit>=1.32.0
 
-
+langchain-groq
 
